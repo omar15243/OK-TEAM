@@ -1,0 +1,15 @@
+<main>
+    <section class="manga-list">
+        <div class="manga">
+            <img src="cover1.jpg" alt="غلاف المانغا 1">
+            <h3>مانغا 1</h3>
+            <a href="#">قراءة الآن</a>
+        </div>
+        <div class="manga">
+            <img src="cover2.jpg" alt="غلاف المانغا 2">
+            <h3>مانغا 2</h3>
+            <a href="#">قراءة الآن</a>
+        </div>
+        <!-- المزيد من عناصر المانغا -->
+    </section>
+</main>
