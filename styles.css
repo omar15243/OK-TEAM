@@ -106,3 +106,47 @@ header nav a {
 header nav a:hover {
     color: #f9a825; /* لون أصفر عند التمرير */
 }
+.manga-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.manga {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.manga:hover {
+    transform: scale(1.05);
+}
+
+.manga img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.manga h3 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.manga a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #f9a825; /* زر أصفر */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.manga a:hover {
+    background-color: #c79100; /* لون أصفر غامق عند التمرير */
+}
