@@ -150,3 +150,10 @@ header nav a:hover {
 .manga a:hover {
     background-color: #c79100; /* لون أصفر غامق عند التمرير */
 }
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+    }
